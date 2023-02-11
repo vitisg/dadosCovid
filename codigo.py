@@ -27,3 +27,11 @@ fig = px.line(df, x="date", y=column, title=column + ' - ' + state)
 fig.update_layout(xaxis_title="Data", yaxis_title=column.upper(), title={'x': 0.5})
 st.plotly_chart(fig, use_container_width=True)
 st.caption('Os dados foram obtidos a partir o site: https://github.com/wcota/covid19br')
+
+
+with st.expander("See explanation"):
+    st.write(\"\"\"
+        The chart above shows some numbers I picked for you.
+        I rolled actual dice for these, so they're *guaranteed* to
+        be random.
+    \"\"\")
