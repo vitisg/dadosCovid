@@ -29,5 +29,5 @@ st.plotly_chart(fig, use_container_width=True)
 st.caption('Os dados foram obtidos a partir o site: https://github.com/wcota/covid19br')
 
 
-with st.expander("See explanation"):
-    st.write("Os dados apresentados são sempre atualizados de acordo com o decorrer das informações" )
+with st.expander("Adendo"):
+    st.write("As informações apresentadas são atualizadas frequentemente." )
