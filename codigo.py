@@ -30,8 +30,4 @@ st.caption('Os dados foram obtidos a partir o site: https://github.com/wcota/cov
 
 
 with st.expander("See explanation"):
-    st.write(\"\"\"
-        The chart above shows some numbers I picked for you.
-        I rolled actual dice for these, so they're *guaranteed* to
-        be random.
-    \"\"\")
+    st.write("Os dados apresentados são sempre atualizados de acordo com o decorrer das informações" )
